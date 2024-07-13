@@ -1,0 +1,89 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title books
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap', rel='stylesheet')
+  link(rel='stylesheet', href='main.css')
+  
+header.header
+  .header__logo
+    img(src='images/Bookshop.svg', alt='logo')
+  .header__navigation
+    a.header__navigation__link.header__navigation__active__link(href='#') BOOKS
+    a.header__navigation__link(href='#') AUDIOBOOKS
+    a.header__navigation__link(href='#') STATIONERY &amp; GIFTS
+    a.header__navigation__link(href='#') BLOG
+  .header__icons
+    button.header__icon
+      img(src='images/user.svg', alt='user')
+    button.header__icon
+      img(src='images/search.svg', alt='search')
+    button.header__icon.bag
+      img(src='images/shop-bag.svg', alt='bag')
+main
+  section.slider
+    .slider__image
+    .slider__dots
+    .slider__links
+      .slider__link-1
+        a(href='#')
+          p
+            | CHANGE
+            br
+            | OLD BOOK
+            br
+            |  ON NEW
+          img.link-arrow(src='images/arrow.svg', alt='arrow')
+      .slider__link-2
+        a(href='#')
+          p
+            | TOP
+            br
+            | 100
+            br
+            | BOOKS
+            br
+            | 2022
+          img.link-arrow(src='images/arrow.svg', alt='arrow')
+  aside.aside
+    ul.aside__titles
+      li
+        a.aside__title.aside__title-active(href='#') Architecture
+      li
+        a.aside__title(href='#') Art &amp; Fashion
+      li
+        a.aside__title(href='#') Biography
+      li
+        a.aside__title(href='#') Business
+      li
+        a.aside__title(href='#') Crafts &amp; Hobbies
+      li
+        a.aside__title(href='#') Drama
+      li
+        a.aside__title(href='#') Fiction
+      li
+        a.aside__title(href='#') Food &amp; Drink
+      li
+        a.aside__title(href='#') Health &amp; Wellbeing
+      li
+        a.aside__title(href='#') History &amp; Politics
+      li
+        a.aside__title(href='#') Humor
+      li
+        a.aside__title(href='#') Poetry
+      li
+        a.aside__title(href='#') Psychology
+      li
+        a.aside__title(href='#') Science
+      li
+        a.aside__title(href='#') Technology
+      li
+        a.aside__title(href='#') Travel &amp; Maps
+  section.gallery
+    .gallery__books
+    button.gallery__load LOAD MORE
+footer
+
